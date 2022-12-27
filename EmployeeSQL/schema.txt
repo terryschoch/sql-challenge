@@ -1,0 +1,34 @@
+"Job Titles"
+------------
+title_id VARCHAR(255) PK
+title VARCHAR(255)
+
+"Employees"
+------------
+emp_no INTEGER PK
+emp_title_id VARCHAR(255) FK >- "Job Titles".title_id
+birth_date DATE
+first_name VARCHAR(255)
+last_name VARCHAR(255)
+sex VARCHAR(255)
+hire_date DATE
+
+"Departments"
+------------
+dept_no VARCHAR(255) PK
+dept_name VARCHAR(255)
+
+"Dept Employees"
+------------
+emp_no INTEGER FK - Employees.emp_no
+dept_no VARCHAR(255) FK >- Departments.dept_no
+
+"Dept Managers"
+------------
+emp_no INTEGER FK - Employees.emp_no
+dept_no VARCHAR(255) FK >- Departments.dept_no
+
+"Salaries"
+------------
+emp_no INTEGER PK FK - Employees.emp_no
+salary INTEGER
