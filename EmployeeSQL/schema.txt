@@ -1,32 +1,32 @@
 "Job Titles"
 ------------
-title_id VARCHAR(255) PK
-title VARCHAR(255)
+title_id VARCHAR(10) PK
+title VARCHAR(35)
 
 "Employees"
 ------------
 emp_no INTEGER PK
-emp_title_id VARCHAR(255) FK >- "Job Titles".title_id
+emp_title_id VARCHAR(35) FK >- "Job Titles".title_id
 birth_date DATE
-first_name VARCHAR(255)
-last_name VARCHAR(255)
-sex VARCHAR(255)
+first_name VARCHAR(35)
+last_name VARCHAR(35)
+sex VARCHAR(35)
 hire_date DATE
 
 "Departments"
 ------------
-dept_no VARCHAR(255) PK
-dept_name VARCHAR(255)
+dept_no VARCHAR(10) PK
+dept_name VARCHAR(35)
 
 "Dept Employees"
 ------------
 emp_no INTEGER FK - Employees.emp_no
-dept_no VARCHAR(255) FK >- Departments.dept_no
+dept_no VARCHAR(10) FK >- Departments.dept_no
 
 "Dept Managers"
 ------------
+dept_no VARCHAR(10) FK >- Departments.dept_no
 emp_no INTEGER FK - Employees.emp_no
-dept_no VARCHAR(255) FK >- Departments.dept_no
 
 "Salaries"
 ------------
