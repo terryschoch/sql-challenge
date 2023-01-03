@@ -16,8 +16,8 @@ For this project, you’ll design the tables to hold the data from the CSV files
 
 3. Inside your local Git repository, create a directory for this Challenge. Use a folder name that corresponds to the Challenge, such as EmployeeSQL.
 
-4. Note that you’ll add your files to this folder and push the changes to GitHub.
-
+4. Note that you’ll add your files to this folder and push the changes to GitHub.  
+  
 
 
 ## Instructions
@@ -53,14 +53,14 @@ Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tab
 
 4. List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
 
-5 List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+5. List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
 
 6. List each employee in the Sales department, including their employee number, last name, and first name.
 
 7. List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
-8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
-
+8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).  
+  
 
 
 ## Requirements
@@ -71,7 +71,7 @@ Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tab
 - Entity Relationship Diagram is included or table schemas provided for all tables (10 points)
 
 
-#### Data Engineeing (70 points)
+#### Data Engineering (70 points)
 
 - All required columns are defined for each table (10 points)
 - Columns are set to the correct data type (10 points)
@@ -91,17 +91,16 @@ Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tab
 - List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B (2 points)
 - List each employee in the Sales department, including their employee number, last name, and first name (2 points)
 - List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name (4 points)
-- List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name) (4 points)
-
+- List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name) (4 points)  
+  
 
 ## Submission
 
 Before submitting your Challenge assignment, make sure that you’ve done the following:
-
-    - Create an image file of your ERD.
-    - Create a .sql file of your table schemata.
-    - Create a .sql file of your queries.
-    - (Optional) Create a Jupyter notebook of the bonus analysis. (Note: there will be no extra points for completing this.)
-    - Ensure that your repository has regular commits and a thorough README.md file
+- Create an image file of your ERD.
+- Create a .sql file of your table schemata.
+- Create a .sql file of your queries.
+- (Optional) Create a Jupyter notebook of the bonus analysis. (Note: there will be no extra points for completing this.)
+- Ensure that your repository has regular commits and a thorough README.md file
 
 To submit your Challenge assignment, click Submit, and then provide the URL of your GitHub repository for grading.
